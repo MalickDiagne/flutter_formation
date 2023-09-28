@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       splitScreenMode: true,
       builder: (_, child) => MaterialApp(
         theme: CustomTheme.defaultTheme,
-        home: const PageBasketBall(title: 'Flutter Demo Home Page'),
+        home: const PageBasketBall(title: 'Demo'),
       ),
     );
   }
